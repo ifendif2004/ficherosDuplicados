@@ -20,7 +20,7 @@ public class CalculoHash {
 		MessageDigest messageDigest = MessageDigest.getInstance("MD5"); // Usa MD5
 		// MessageDigest messageDigest = MessageDigest.getInstance("SHA"); // Usar SHA-1
 
-		/* Leer fichero de 1k en 1k y pasar fragmentos leidos a la funcion resumen */
+		/* Leerr fichero de 1k en 1k y pasar fragmentos leidos a la funcion resumen */
 		int longitud = 10000000; 
 		byte[] buffer = new byte[longitud];
 		FileInputStream in = new FileInputStream(fichero);
