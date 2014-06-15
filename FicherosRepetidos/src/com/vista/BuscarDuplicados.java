@@ -54,6 +54,7 @@ public class BuscarDuplicados extends JFrame {
 	private JLabel lblFicherosDuplicados;
 	public JTextField textContDuplicados;
 	private JTable tableDuplicados;
+	
 
 	/**
 	 * Launch the application.
